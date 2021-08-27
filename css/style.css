@@ -277,22 +277,30 @@ header p{
     width: 50%;
 }
 .about{
-    background-color: white;
     color: #726d6d;
     padding: 50px 0 50px 50px;
     width: 50%;
 }
 .img img{
-    width: 100%;
+    width: 90%;
 }
-h2{
+h2,h4{
+    margin-top:20px ;
     color: #000;
-    font-size: 32px;
     font-family:  'Alegreya', serif;
     font-weight: lighter;
 }
-.about p{
-   margin: 25px 0;
+h2{
+    font-size: 32px;
+}
+h4{
+    font-size: 22px;
+}
+.about p,
+.about-item p,
+.header-our-baking p{
+    color: #726d6d;
+   margin: 20px 10px;
     line-height: 30px;
     font-size: 17px;
 }
@@ -316,4 +324,57 @@ ul{
     align-items: center;
     margin: 10px 0;
    
+}
+.Our-Location{
+    background-color: #f8f8f8;
+        padding: 50px 20px;
+        margin: 50px 0;
+    
+}
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+.Our-Baking{
+    padding: 50px 20px;
+    margin: 50px 0;
+}
+section.Our-Baking .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-our-baking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.items{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.item{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+div.item .img {
+    width: 100%; 
+}
+div.item .img img{
+    width: 100%; 
+}
+.item .about-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
