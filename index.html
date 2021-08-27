@@ -10,39 +10,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <!-- Link font awasome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Link bootstrap icons -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
     <!-- Link CSS files -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section class="home">
-        <div class="container">
             <nav>
                 <div class="logo">
                     <img src="img/bakery-light-1.png" alt="bakery-light" >
                 </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
+                <ul class="list">
+                    <li class="first-link-list"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Our Offer</a></li>
                     <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li class="blog-nav-list" >
+                        <a href="#">Blog</a>
+                        <ul id="blog-list">
+                            <li >Blog Index</li>
+                            <li >Simple Post</li>
+                            <li >Gallery Post</li>
+                            <li >Basic Post</li>
+                        </ul>
+                    </li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <header>
                 <p class="top-header">Welcome to</p>
                 <h1>Family Bakery</h1>
-                <p>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
+                <p class="bottom-header">We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
                 <div class="buttons">
-                    <button class="btn btn-847745">learn more </button>
-                    <button class="btn btn-transparent">Contact us </button>
+                    <a href="#" class="btn btn-847745">learn more </a>
+                    <a href="#" class="btn btn-transparent">Contact us </a>
                 </div>
             </header>
-        </div>
+                <div class="icons">
+                        <div class="icon1">
+                            <a href="#"><p>See Demo Sites</p></a>
+                            <div class="cogs"><a href="#"><i class="fas fa-cogs"></i></a></div>
+                        </div>
+                        <div class="icon2">
+                            <a target="_blank" href="https://themeforest.net/item/engage-creative-multipurpose-wp-theme/19199913?ref=Veented"><p>Buy Engage Now!</p></a>
+                            <div class="cart"><a  target="_blank"  href="https://themeforest.net/item/engage-creative-multipurpose-wp-theme/19199913?ref=Veented"><i class="fas fa-shopping-cart"></i></a> </div>
+                        </div>
+                </div>
+            <div class="cursor">
+                <a href="#about"><i class="bi bi-mouse"></i></a>
+            </div>
     </section>
-    <section class="about"></section>
+    <section id="about" class="about"></section>
     <section class="our-offer"></section>
     <section class="gallery"></section>
     <section class="blog"></section>
